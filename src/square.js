@@ -3,7 +3,6 @@ function square(hashtags) {
     for (j = 1; j <= hashtags; j++) {
       console.log("#");
     }
-
     console.log("#");
   }
 }
