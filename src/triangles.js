@@ -1,9 +1,10 @@
-function isoscelesTriangle(triangle) {
-  for (i = 1; i <= 5; i++) {
-    for (j = 1; j <= i; j++) {
+function triangle(hash) {
+  for (var i = 1; i <= hash; i++) {
+    for (var s = 1; s <= i; s++) {
       console.log("#");
     }
-    console.log("#");
+    console.log("<br>");
   }
 }
-isoscelesTriangle(6);
+
+triangle(5);

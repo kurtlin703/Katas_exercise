@@ -6,4 +6,5 @@ function oddOrEven(randomNumber) {
   }
 }
 
-oddOrEven(15);
+oddOrEven(3);
+oddOrEven(4);

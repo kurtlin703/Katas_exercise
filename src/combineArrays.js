@@ -1,11 +1,10 @@
-function combineArrays(arr1, arr2) {
-  if (arr1.length == arr2.length) {
-    var arrayCombine = [];
-
-    for (var i = 0; i < arr2.length; i++) {
-      arrayCombine.push(arr1[i], arr2[i]);
+function combine(array1, array2) {
+  if (array1.length == array2.length) {
+    let combineArrays = [];
+    for (let i = 0; i < array1.length; i++) {
+      combineArrays.push(array1[i], array2[i]);
     }
-    console.log(arrayCombine);
+    console.log(combineArrays);
   }
 }
-combineArrays([11, 22, 33], [1, 2, 3]);
+combine([11, 22, 33], [1, 2, 3]);

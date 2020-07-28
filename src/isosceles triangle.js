@@ -1,12 +1,10 @@
-function isosceles(a) {
-  for (var i = 1; i <= a; i++) {
-    var p = " ";
-
-    for (var j = 1; j <= 2 * p - 1; j++) {
-      j >= p + 1 - i && j <= p - 1 + i ? (a += "*") : (a += " ");
+function isosceles(x) {
+  for (var i = 1; i <= x; i++) {
+    var s = " ";
+    for (var j = 1; j <= 2 * x - 1; j++) {
+      j >= x + 1 - i && j <= x - 1 + i ? (s += "#") : (s += " ");
     }
-
-    console.log(a);
+    console.log(s);
   }
 }
 isosceles(5);
